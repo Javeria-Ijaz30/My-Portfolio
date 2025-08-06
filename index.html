@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MY PORTFOLIO</title>
+  <style>
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(90deg, #8e44ad, #3498db);
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+    }
+
+    /* Navigation */
+    nav {
+      background: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 10px 0;
+      position: sticky;
+    }
+
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #555;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #8e44ad;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    /* Profile Image */
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Section Styling */
+    section {
+      margin-bottom: 60px;
+      padding: 40px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    section h2, section h3 {
+      margin-top: 0;
+      color: #8e44ad;
+      font-size: 1.8rem;
+    }
+
+    section ul {
+      padding-left: 20px;
+    }
+
+    /* Flex Layout for Skills & Projects */
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .flex .half {
+      flex: 1 1 45%;
+    }
+
+    /* Contact Links */
+    #contact a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+
+      nav a {
+        display: inline-block;
+        margin: 10px;
+      }
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><strong>Javeria Ijaz </strong></h1>
+
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">My Skills</a>
+    <a href="#projects">My Projects</a>
+    <a href="#contact">Contact Me</a>
+  </nav>
+
+  <div class="container">
+    <img src="81af1196-4830-4421-abba-d60aa454740d.jpg" alt="Profile Picture" class="profile-img">
+
+    <main>
+      <!-- About -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a Computer Science student from UET Lahore with experience in AI, ML, Web Development, and Software Engineering. I specialize in SDLC, STLC, NLP, and facial recognition systems. I love solving real-world problems through code and I'm currently seeking opportunities where I can contribute and grow.</p>
+      </section>
+
+      <!-- Skills and Projects in parallel -->
+      <div class="flex">
+        <!-- Skills -->
+        <section id="skills" class="half">
+          <h3>My Skills</h3>
+          <ul>
+            <li>Python</li>
+            <li>C++ / C / C#</li>
+            <li>WPF.Net</li>
+            <li>SQL</li>
+            <li>NLP (Natural Language Processing)</li>
+            <li>Web Development</li>
+          </ul>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="half">
+          <h3>My Projects</h3>
+          <ul>
+            <li>Urdu Text Summarization Model</li>
+            <li>Facial Recognition Attendance System</li>
+            <li>UET Bus Alumni System</li>
+            <li>Payroll Management System</li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- Contact -->
+      <section id="contact">
+        <h3>Contact Me</h3>
+        <p>GitHub: <a href="https://javeria-ijaz30.github.io/My-Portfolio/" target="_blank">github.com/Javeria-Ijaz301</a></p>
+        <p>Email: <a href="mailto:khanjaveria734@gmail.com" target="_blank">khanjaveria734@gmail.com</a></p>
+        <p>LinkedIn: <a href="http://www.linkedin.com/in/javeria-i-829715203" target="_blank">linkedin.com/in/javeria-i-829715203</a></p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 All rights reserved | Designed by Javeria Ijaz</p>
+  </footer>
+
+</body>
+</html>
